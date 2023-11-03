@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Fredoka:wght@500;600&family=IBM+Plex+Mono:wght@500&family=Poppins&family=Roboto+Slab:wght@500&display=swap');
+
+*{
+    font-family: 'Fredoka', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #238CF8;
+}
+
+#gamename{
+    display: flex;
+    justify-content: center;
+    font-size: 90px;
+    font-weight: 500;
+    color: #FAB203;
+    -webkit-text-stroke: 5px white;
+}
+
+#grid{
+    display: grid;
+    grid-template-rows: auto auto auto ;
+    grid-template-columns: auto auto auto ;
+    /* border: 2px solid white; */
+    grid-row: 3;
+    grid-column: 3;
+    gap: 10px;
+    justify-content: center;
+    
+}
+#subgrid{
+    box-shadow: 2px 2px #C0C0C0;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background: white;
+}
+footer{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
